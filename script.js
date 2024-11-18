@@ -49,8 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     break;
                 case '÷':
                     if (current === 0) {
-                        result = 'Error';
-                    } else {
+                        result = 'Error 2';
+                    }  else {
                         result = previous / current;
                     }
                     break;
